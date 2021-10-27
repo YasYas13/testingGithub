@@ -15,7 +15,8 @@ public class Practice3 {
         int feet = x/(25*12);
         return feet;
     }
-
+    System.out.print("test");
+    
     public static int calculateInch(int y){
         int inch = (y/25)%12;
         return inch;
